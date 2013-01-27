@@ -1,0 +1,18 @@
+{ "name" : "when-then"
+, "description" : "Simple helper for executing functions only after others have completed."
+, "tags" : ["http", "simple", "util", "utility", "async"]
+, "version" : "0.0.2"
+, "author" : "Max Thayer <garbados@gmail.com>"
+, "repository" :
+  { "type" : "git"
+  , "url" : "http://github.com/garbados/when-then.git"
+  }
+, "bugs" :
+  { "url" : "http://github.com/garbados/when-then/issues" }
+, "engines" : ["node >= 0.3.6"]
+, "main" : "./main"
+, "dependencies": { 
+}
+, "bundleDependencies": []
+, "scripts": { "test": "node tests/run.js" }
+}
